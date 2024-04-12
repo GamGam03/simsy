@@ -82,9 +82,6 @@ public class SimpleAI : MonoBehaviour
                 CurrentInteraction = null;
                 return;
             }
-            else
-                Debug.Log($"Going to {CurrentInteraction.DisplayName} at {selectedObject.DisplayName}");
         }
     }
 }
-#endif // UNITY_EDITOR

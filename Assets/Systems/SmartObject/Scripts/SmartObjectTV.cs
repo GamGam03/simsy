@@ -9,5 +9,6 @@ public class SmartObjectTV : SmartObject
     public void ToggleState()
     {
         IsOn = !IsOn;
+        Debug.Log($"TV is now {(IsOn ? "ON" : "OFF")}");
     }
 }
